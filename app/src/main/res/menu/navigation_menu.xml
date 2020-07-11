@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group01">
+        <item
+            android:id="@+id/all"
+            android:icon="@android:color/holo_green_dark"
+            android:title="全部" />
+    </group>
+
+    <group android:id="@+id/group02">
+        <item
+            android:id="@+id/temp"
+            android:icon="@android:color/holo_orange_dark"
+            android:title="临时" />
+    </group>
+
+    <group android:id="@+id/group03">
+        <item
+            android:id="@+id/work"
+            android:icon="@color/colorAccent"
+            android:title="工作" />
+    </group>
+
+    <group android:id="@+id/group04">
+        <item
+            android:id="@+id/life"
+            android:icon="@color/design_default_color_secondary_variant"
+            android:title="生活" />
+    </group>
+</menu>
